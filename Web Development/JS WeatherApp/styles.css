@@ -1,0 +1,40 @@
+/* Importing Google fonts - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5f41e4;
+}
+
+.container{
+    background: #fff;
+    border-radius: 10px;
+    max-width: 425px;
+    flex-grow: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-section .search-input{
+    height: 100%;
+    width: 100%;
+}
+
+.hourly-weather .weather-list{
+    display: flex;
+}
+
+.hourly-weather .weather-item .weather-icon{
+    width: 28px;
+    aspect-ratio: 1;
+}
+
